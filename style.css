@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/wall-21534_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture{
+    margin: 100px;
+    width: 600px;
+    height: 600px;
+    background-image: url(./image/images\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 250px;
+    position: relative;
+    border: 15px solid orange;
+    box-shadow: 10px 5px 5px red;
+}
+.photo1{
+    width: 570px;
+    height: 570px;
+    background-image: url(./image/istockphoto-1167526943-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 10px;
+    position: absolute; 
+    transition: 2s; 
+}
+.picture:hover .photo1{
+    right: -570px;
+    position: absolute;
+    box-shadow: 5px 5px 5px red;
+}
+.photo2{
+    width: 570px;
+    height: 570px;
+    background-image: url(./image/istockphoto-1167526943-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 10px;
+    position: absolute; 
+    transition: 2s;   
+}
+.picture:hover .photo2{
+    left: -570px;
+    position: absolute;
+    box-shadow: 5px 5px 5px red;
+}
